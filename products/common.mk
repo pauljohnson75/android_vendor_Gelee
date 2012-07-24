@@ -12,7 +12,8 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf \
-    Stk 
+    Stk \
+    Wallpapers
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml \
@@ -20,7 +21,6 @@ PRODUCT_COPY_FILES += \
 
 # Apex, RomToolbox and RootBrowser
 PRODUCT_COPY_FILES +=  \
-    vendor/Gelee/prebuilt/common/RomToolbox.apk:system/app/RomToolbox.apk \
     vendor/Gelee/prebuilt/common/RootBrowser.apk:system/app/RootBrowser.apk \
     vendor/Gelee/prebuilt/common/etc/.root_browser:system/etc/.root_browser \
     vendor/Gelee/prebuilt/common/ApexLauncher.apk:system/app/ApexLauncher.apk 
