@@ -77,7 +77,7 @@ rm -rf $REPACK/ota/recovery
 find $REPACK/ota/system/lib/modules -name "*.ko" -print0 | xargs -0 arm-eabi-strip --strip-unneeded
 
 # Determine what to name the new signed package
-OUTFILE=$OUT/Gelee-411.zip
+OUTFILE=$OUT/Gelee_Verte-1_0.zip
 
 # Pack it up and sign
 printf "Zipping package..."
