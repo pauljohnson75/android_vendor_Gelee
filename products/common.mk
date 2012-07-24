@@ -53,6 +53,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Girtab.ogg \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Cesium.ogg \
-    ro.modversion=Gelee-v.411-3 \
+    ro.modversion=Gelee_Verte-v1.0 \
     ro.kernel.android.checkjni=0 \
     windowsmgr.max_events_per_sec=240
